@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best_Chode</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="icon" href="./Assets/BestChode_resize.jpeg">
+    <script src="https://kit.fontawesome.com/fcbc9116ca.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="loginpage">
+        <form action="" class="login-1">
+            <i class="fa-solid fa-user-plus"></i>
+            <table>
+                <tr>
+                    <td><i class="fa-solid fa-envelope"></i> <input class="log_table" type="text" id="mail" name="email" placeholder="UserName or Email Id"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-lock"></i> <input class="log_table" type="text" id="pswd" name="pass" placeholder="password"></td>
+                </tr>
+            </table>
+
+            <section>
+                <!-- <a class="account sec" href="./new_account.html" target="_blank">Create New Account</a>
+                <a class="forgot sec" href="./password.html">Forgot Password ?</a> -->
+            </section>
+
+            <!-- <button>
+                <a class="btn-1" href="#">Login</a>
+            </button> -->
+
+            <button type="button" id="log" onclick="checkLogin()">Login</button>
+            <!-- <button type="button" id="change"  >change</button> -->
+        </form>
+    </main>
+
+    <script src="./control.js"></script>
+    <script>
+        function checkLogin(){// method to pass the value via parameter
+            let userid = document.getElementById("mail").value;
+            let userpswd = document.getElementById("pswd").value;
+
+            let ses = new UserSession();
+            ses.checkLogin(userid, userpswd);
+            log.style.cursor = "pointer"
+        }
+    </script>
+</body>
+</html>

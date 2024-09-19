@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="icon" href="./Assets/BestChode_resize.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="./control.js"></script>    
+</head>
+
+<body onload="new UserSession().verifySession()">
+    <main class="main_content">
+        <section class="news_1">
+            <article class="news_2">
+                <h3 class="news">Subscribe Our Newsletter</h3>
+            </article>
+            <article class="news_2">
+                <input type="email" id="email" class="in" name="email" placeholder="Enter Your email">
+                <i class="bi bi-arrow-right"></i>
+            </article>
+        </section>
+
+        <section class="news_1-1">
+            <article class="get_1">
+                <h4 class="get">Get In Touch</h4>
+            </article>
+
+            <article class="user">
+                <input type="text" name="uname" class="in-uname" id="uname" placeholder="Name" onchange="showMsg()">
+            </article>
+
+            <article class="user">
+                <input type="text" name="unumber" class="in-uname" id="unumber" placeholder="Phone">
+            </article>
+
+            <article class="user">
+                <input type="email" name="email" class="in-uname" id="uemail" placeholder="Email">
+            </article>
+
+            <article class="user">
+                <textarea name="ucomment" class="in-ucmt" id="ucomment" placeholder="Comments"></textarea>
+            </article>
+
+            <button class="bt">
+                Send
+            </button>
+        </section>
+    </main>
+    
+    <script>
+        function showMsg()
+        {
+            alert("Enter First Letter in Capital")
+        }
+    </script>
+</body>
+
+</html>

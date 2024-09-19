@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: auto;
+    width: 100%;
+} 
+
+
+.loginpage{
+    max-width: 1500px;
+    margin: auto;
+    background-image: url(./Assets/7vMmx\ 1366.jpeg);
+    min-height: 645px;
+    text-align: -webkit-center;
+}
+
+.log_table{
+    background: border-box;
+    border: none;
+}
+td {
+    border-bottom: 2px solid #c06a01;
+    padding-bottom: 5px;
+    display: inline-block;
+    width: 300px;
+}
+
+i.fa-user-plus {
+    font-size: xxx-large;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+section{
+    margin-top: 15px;
+    display: flex;
+    width: 295px;
+}
+
+a.sec {
+    color: white;
+    text-decoration: none;
+}
+a.account {
+    flex-grow: 1;
+    text-align: left;
+}
+
+button {
+    margin-top: 50px;
+    padding: 5px 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #c06a01;
+}
+a.btn-1 {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 50px;
+    padding: 5px 16px;
+    border-radius: 30px;
+    border: none;
+    background-color: #c06a01;
+}
+
+form.login-1 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0;
+    width: 325px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 50px;
+}
+/*used display inline block       

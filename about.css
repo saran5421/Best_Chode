@@ -1,0 +1,115 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+.news_1{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #270b60;
+    min-height: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 170px;
+    border-radius: 15px;
+}
+.news_2{
+    text-align: center;
+    padding-top: 15px;
+}
+h3.news {
+    color: whitesmoke;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.in {
+    padding: 12px 20px;
+    width: 50%;
+}
+section.news_1-1 {
+    background-color: black;
+    min-height: 300px;
+    position: relative;
+    margin-top: 75px;
+}
+
+article.get_1 {
+    padding-top: 80px;
+    font-size: xx-large;
+}
+h4.get {
+    color: whitesmoke;
+    padding-top: 10px;
+    text-align: center;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    width: 100%;
+}
+
+main{
+    max-width: 1500px;
+    margin: auto;
+    background-image: url(./Assets/walk-in-school-illustration\ 1349.jpeg);
+    
+}
+
+section.con {
+    display: inline-block;
+    margin-top: 95px;
+    color: white;
+}
+
+section.content {
+    min-height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    font-size: larger;
+}
+
+article.sec-1 {
+    width: 870px;
+}
+
+h1 {
+    border-left: 5px solid #c06a01;
+    padding-left: 6px;
+    height: 28px;
+}
+
+.aboutpara{
+    margin-top: 20px;
+}
+
+
+article.sec-2 {
+    margin-left: 20px;
+    display: inline-block;
+    width: 359px;
+}
+
+h2{
+    color: #c06a01;
+}
+
+.bi{
+    color:goldenrod;
+    font-size: xx-large;
+}
+
+h3.wedo {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+p.whatwedo {
+    padding-left: 20px;
+    margin-top: 10px;
+}
